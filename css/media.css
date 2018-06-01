@@ -1,0 +1,89 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575.98px) {
+    .content {
+        min-height: 40px;
+        background: #CCE0FB;
+        margin: 25px 0 5px 0;
+
+    }
+    .board_1{
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .board_2 {
+        margin-top: 0;
+        margin-left: -20px;
+    }
+    .hero_features {
+        min-height: 55px;
+    }
+    .wrapper {
+        min-height: 110px;
+    }
+    .body_content {
+        margin-top: 15px;
+        min-height: 100px;
+    }
+    .ad {
+        min-height: 100px;
+        margin-top: 15px;
+    }
+    .wrapper_2 {
+        min-height: 370px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero_features {
+        margin-top: 40px;
+        min-height: 65px;
+    }
+    .hero_colt {
+        margin-top: 10px;
+        min-height: 50px;
+    }
+
+    .wrapper {
+        min-height: 180px;
+    }
+    .body_content {
+        min-height: 150px;
+    }
+    .ad {
+        margin-top: 45px;
+    }
+    .wrapper_2 {
+        min-height: 600px;
+    }
+    .article_feature {
+        margin-top: 45px;
+        min-height: 150px;
+    }
+    .article_listing {
+        margin-top: 20px;
+        min-height: 370px;
+    }
+    .sidebar_features {
+        min-height: 100px;
+        margin-top: 15px;
+    }
+    .sidebar_content {
+        margin-top: 15px;
+        min-height: 120px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
